@@ -1,0 +1,8 @@
+exclude: ['sass', 'README.markdown', 'config.rb']
+markdown: rdiscount
+pygments: true
+
+base_url: http://carlosedp.com
+
+name: Shallow Thoughts
+permalink: /:title.html

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
+    <head>
+        <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+        <title>{% if page.title %}{{ page.title }} - {% endif %}{{ site.name }}</title>
+        <meta name="author" content="Carlos Eduardo de Paula" />
+        <link href="http://feeds.feedburner.com/shallow-thoughts" rel="alternate" title="Shallow Thoughts" type="application/atom+xml" />
+
+        <!-- syntax highlighting CSS -->
+        <link rel="stylesheet" href="/css/syntax.css" type="text/css" />
+
+        <!-- Homepage CSS -->
+        <link rel="stylesheet" href="/css/screen.css" type="text/css" media="screen, projection" />
+    </head>
+    <body>
+        <div class="bands">
+            <div class="b1"></div>
+            <div class="b2"></div>
+            <div class="b3"></div>
+            <div class="b4"></div>
+        </div>
+        <div id="container">
+            <div id="header">
+                <h1 class="title">{{ site.name }}</h1>
+            </div>
+            <div id="nav-left">
+                <br>
+                <div id="about-box">
+
+                    <span class="name">Carlos Eduardo de Paula</span>
+                    <br/>
+                    <span class="about">Random thinker, developer, tech fanatic and aspiring musician from São Paulo / Brazil</span>
+                    <br/>
+                    <br/>
+                    <span class="twitter">
+                        <a href="http://twitter.com/carlosedp">@carlosedp</a>
+                    </span>
+                </div>
+                <br/>
+                <ul>
+                    <li><a href="/">Home</li></a>
+                    <li><a href="#Projects">Projects</li></a>
+                    <li><a href="/archives">Archives</li></a>
+                    <li><a href="/search">Search</li></a>
+                    <li><a href="/about">About</li></a>
+                </ul>
+            </div>
+            <div id="content">
+                {{ content }}
+            </div>
+
+            <div id="footer">
+                <div class="contact">
+                    <p>
+                        Design & Content by Carlos Eduardo de Paula<br/>
+                        Contact me at:
+                        <a href="mailto:me@carlosedp.com?subject=Shallow Thoughts - Feedback">me@carlosedp.com</a><br/>
+                    </p>
+                </div>
+                <div class="icons">
+                    <a href="http://github.com/carlosedp/"><img src="/images/Github-Icon.png", alt="Github"/></a>
+                    <a href="http://twitter.com/carlosedp"><img src="/images/Twitter-Icon.jpeg", alt="Twitter"/></a>
+                    <a href="http://flickr.com/photos/carlosedp"><img src="/images/Flickr-Icon.png", alt="Flickr"/></a>
+                    <a href="http://feeds.feedburner.com/shallow-thoughts">
+                        <img src="/images/rss.png" alt="Subscribe to RSS Feed"/>
+                    </a>
+                </div>
+            </div>
+
+        </div>
+
+
+        <!-- Google Analytics -->
+        <script type="text/javascript">
+            var _gaq = _gaq || [];
+            _gaq.push(['_setAccount', 'UA-555853-6']);
+            _gaq.push(['_trackPageview']);
+
+            (function() {
+                var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+                ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+                    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+            })();
+        </script>
+    </body>
+</html>

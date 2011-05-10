@@ -1,0 +1,285 @@
+@import compass/reset
+@import compass
+
+$font-family: "Helvetica Neue", "Helvetica", "Arial", "sans-serif"
+
+/*Colour pallete from http://www.colourlovers.com/palette/728391/Dig_My_Olive_Branch
+$raspberry: #300018
+$goodwill: #5a3d31
+$olives: #837b47
+$gardens: #adb85f
+$reflection: #e5edb8
+
+body
+  font-family: $font-family
+  text-align: justify
+  color: $goodwill
+  background-color: $reflection
+  background-image: url(/images/noise.png)
+  -webkit-font-smoothing: antialiased
+  line-height: 1.2
+  font-weight: normal
+  font-size: 16px
+
+.bands
+  display: block
+  float: left
+  width: 100%
+  background-color: $reflection
+  background-image: url(/images/noise.png)
+
+.bands div
+  background-image: url(/images/noise.png)
+  display: block
+  float: left
+  height: 50px
+
+.bands div.b1
+  background-color: $raspberry
+  width: 40%
+
+.bands div.b2
+  background-color: $goodwill
+  width: 3%
+
+.bands div.b3
+  background-color: $olives
+  width: 5%
+
+.bands div.b4
+  background-color: $gardens
+  width: 8%
+
+#container
+  clear: both
+  background-color: white
+  +border-top-right-radius(5px)
+  width: 800px
+  padding: 0 20px
+  margin: 0 auto
+  position: relative
+
+#header
+  width: 100%
+  padding-top: 20px
+  padding-bottom: 20px
+  border-bottom: 4px solid $raspberry
+
+#nav-left
+  float: left
+  width: 150px
+  height: 500px
+  text-align: left
+  a
+    text-decoration: none
+    color: $goodwill
+    &:hover
+      color: $gardens
+  #about-box
+    color: $goodwill
+    text-shadow: 1px solid $olives
+    padding: 10px
+    background: $reflection
+    background-image: url(/images/noise.png)
+    +border-top-right-radius(5px)
+    +border-bottom-right-radius(5px)
+    margin: 0 20px 0 -20px
+    border-top: 1px solid $gardens
+    border-bottom: 1px solid $gardens
+    border-right: 1px solid $gardens
+    .name
+      font-weight: 700
+    .about
+      font-size: 70%
+    .twitter
+      font-size: 80%
+      font-weight: 700
+  ul
+    li
+      font-weight: 700
+      border-bottom: 1px solid $goodwill
+      padding: 5px 10px 5px 10px
+      margin-left: -20px
+      margin-right: 60px
+
+#content
+  float: right
+  width: 650px
+
+#footer
+  clear: both
+  margin: 0 auto
+  font-size: 80%
+  color: #444
+  border-top: 4px solid $raspberry
+  padding: 10px
+  overflow: hidden
+  .contact
+    float: left
+    margin-right: 10em
+    a
+      color: #8085C1
+  .icons
+    margin-right: -0.2em
+    float: right
+    img
+      border: 0
+      width: 35px
+      height: 35px
+      &:hover
+        +opacity(0.8)
+
+p
+  margin-bottom: 10px
+
+a
+  color: $goodwill
+  text-shadow: rgba(0, 0, 0, 0.15) 1px 1px 0px
+  +transition(color, 0.3s, ease-in-out, initial)
+  &:hover
+    color: $olives
+
+h1
+  font-size: 160%
+  font-weight: 700
+  text-decoration: underline
+  line-height: 2.5em
+  text-shadow: rgba(0, 0, 0, 0.25) 1px 1px 0px
+
+.with-border
+  border-top: 2px solid $raspberry
+
+h1.title
+  text-align: center
+  text-decoration: none
+  font-size: 40px
+  font-weight: 800
+  line-height: 1.5em
+  text-shadow: rgba(0, 0, 0, 0.25) 2px 2px 0px
+
+article h1
+  font-size: 120%
+  line-height: 1.5em
+  margin-bottom: 15px
+
+post h1
+  font-size: 120%
+  line-height: 1.5em
+  margin-bottom: 15px
+  margin-top: 15px
+
+page h1
+  margin-bottom: 15px
+  margin-top: 15px
+
+h2
+  font-size: 140%
+  font-weight: 500
+  margin: 15px 0 15px 0
+
+h3
+  font-size: 110%
+  font-weight: 500
+  margin: 15px 0 15px 0
+
+page ul
+  li
+    list-style-type: disc
+    font-size: 15px
+    margin-left: 25px
+    margin-bottom: 5px
+
+page img
+  margin: 10px
+  width: 150px
+
+.right
+  float: right
+
+ul.posts
+  list-style-type: none
+  margin-bottom: 1em
+
+ul.posts li
+  line-height: 1.75em
+
+ul.posts span
+  color: #888
+  font-family: Monaco, "Courier New", monospace
+  font-size: 90%
+
+.date
+  color: #800000
+  display: block
+  float: right
+  font-weight: bold
+  width: 80px
+  em
+    border-right: 1px solid #800000
+    display: block
+    float: left
+    font-size: 30px
+    font-style: normal
+    line-height: 30px
+    padding-right: 5px
+    width: 34px
+  small
+    display: block
+    float: right
+    font-size: 12px
+    padding-left: 5px
+    width: 33px
+
+blockquote
+  color: #666
+  display: block
+  font-size: 13px
+  line-height: 18px
+  margin-bottom: 10px
+  margin-left: 18px
+  margin-right: 18px
+  margin-top: 5px
+  padding-bottom: 0px
+  padding-left: 10px
+  padding-right: 0px
+  padding-top: 0px
+  width: 460px
+  border-left: #666 4px solid
+
+article
+  padding-bottom: 40px
+
+/* standard
+#post pre
+  border: 1px solid #ddd
+  background-color: #eef
+  padding: 0 .4em
+
+#post ul,
+#post ol
+  margin-left: 1.35em
+
+#post code
+  border: 1px solid #ddd
+  background-color: #eef
+  font-size: 85%
+  padding: 0 .2em
+
+#post pre code
+  border: none
+
+/* terminal
+
+#post pre.terminal
+  border: 1px solid black
+  background-color: #333
+  color: white
+
+#post pre.terminal code
+  background-color: #333
+
+#related
+  margin-top: 2em
+
+#related h2
+  margin-bottom: 1em
