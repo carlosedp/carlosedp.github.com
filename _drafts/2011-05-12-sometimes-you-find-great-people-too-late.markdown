@@ -5,9 +5,9 @@ tags:
     - blog
 ---
 
-Yesterday, while going thru my daily reading, a [post](http://http://daringfireball.net/linked/2011/05/04/derek-miller) by John Gruber caught my attention.
+Last week, while going thru my daily reading, a [post](http://http://daringfireball.net/linked/2011/05/04/derek-miller) by John Gruber caught my attention.
 
-The post is about the last written piece by Derek K. Miller, who passed away earlier this week after a battle against cancer.
+The post is about the last written piece by Derek K. Miller, who passed away earlier this month after a battle against cancer.
 
 What is enlightening to me is that Derek writes in such a fascinating way that after I read the mentioned post, I could nor stop looking for more of his writing and lead me to return writing.
 
