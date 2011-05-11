@@ -1,7 +1,9 @@
 @import compass/reset
 @import compass
 
-$font-family: "Helvetica Neue", "Helvetica", "Arial", "sans-serif"
+//$font-family: "Helvetica Neue", "Helvetica", "Arial", "sans-serif"
+$body-font-family: "Trebuchet MS", Helvetica, Arial, sans-serif
+$menus-font-family: Verdana, Arial, Helvetica, sans-serif
 
 /*Colour pallete from http://www.colourlovers.com/palette/728391/Dig_My_Olive_Branch
 $raspberry: #300018
@@ -11,15 +13,14 @@ $gardens: #adb85f
 $reflection: #e5edb8
 
 body
-  font-family: $font-family
-  text-align: justify
+  font-family: $body-font-family
   color: $goodwill
   background-color: $reflection
   background-image: url(/images/noise.png)
   -webkit-font-smoothing: antialiased
   line-height: 1.2
   font-weight: normal
-  font-size: 16px
+  font-size: 16px   
 
 .bands
   display: block
@@ -63,27 +64,24 @@ body
   width: 100%
   padding-top: 20px
   padding-bottom: 20px
+  margin-bottom: 20px
   border-bottom: 4px solid $raspberry
 
 #nav-left
+  font-family: $menus-font-family
   float: left
   width: 150px
   height: 500px
   text-align: left
-  a
-    text-decoration: none
-    color: $goodwill
-    &:hover
-      color: $gardens
   #about-box
-    color: $goodwill
-    text-shadow: 1px solid $olives
-    padding: 10px
-    background: $reflection
-    background-image: url(/images/noise.png)
     +border-top-right-radius(5px)
     +border-bottom-right-radius(5px)
+    color: $goodwill
+    background: $reflection
+    background-image: url(/images/noise.png)
+    text-shadow: 1px solid $olives
     margin: 0 20px 0 -20px
+    padding: 10px 0
     border-top: 1px solid $gardens
     border-bottom: 1px solid $gardens
     border-right: 1px solid $gardens
@@ -96,7 +94,7 @@ body
       font-weight: 700
   ul
     li
-      font-weight: 700
+      font-weight: 900
       border-bottom: 1px solid $goodwill
       padding: 5px 10px 5px 10px
       margin-left: -20px
@@ -130,40 +128,46 @@ body
         +opacity(0.8)
 
 p
+  text-align: justify
   margin-bottom: 10px
-
+  
 a
-  color: $goodwill
-  text-shadow: rgba(0, 0, 0, 0.15) 1px 1px 0px
   +transition(color, 0.3s, ease-in-out, initial)
+  text-decoration: none
+  text-shadow: rgba(0, 0, 0, 0.15) 1px 1px 0px
+  color: $goodwill
+  &:visited
+    color: $goodwill
   &:hover
     color: $olives
 
+p a, page a, .posts a
+  border-bottom: 1px dotted
+
 h1
-  font-size: 160%
+  font-size: 130%
   font-weight: 700
-  text-decoration: underline
+  font-family: $menus-font-family
   line-height: 2.5em
   text-shadow: rgba(0, 0, 0, 0.25) 1px 1px 0px
 
 .with-border
-  border-top: 2px solid $raspberry
+  border-top: 2px solid #B7A6AE
 
 h1.title
   text-align: center
-  text-decoration: none
   font-size: 40px
   font-weight: 800
   line-height: 1.5em
   text-shadow: rgba(0, 0, 0, 0.25) 2px 2px 0px
 
 article h1
-  font-size: 120%
+  font-size: 110%
   line-height: 1.5em
-  margin-bottom: 15px
+  margin-bottom: 25px
 
 post h1
-  font-size: 120%
+  font-size: 110%
   line-height: 1.5em
   margin-bottom: 15px
   margin-top: 15px

@@ -1,28 +1,25 @@
 ---
 layout: default
 ---
-
-<div id="home">
-    <h1>Latest Posts</h1>
-    {% for post in site.posts limit:2 %}
-    <article>
-    <time class="date" datetime="{{ post.date | date: "%Y-%m-%d" }}">{{ post.date | date: "<em>%d</em><small>%b<br>%Y</small>" }}</time>
-    <a href="{{ post.url }}"><h1>{{ post.title }}</h1></a>
-    {{ post.content }}
-    </article></a>
+{% for post in site.posts limit:2 %}
+<article>
+<time class="date" datetime="{{ post.date | date: "%Y-%m-%d" }}">{{ post.date | date: "<em>%d</em><small>%b<br>%Y</small>" }}</time>
+<h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
+{{ post.content }}
+</article></a>
+{% endfor %}
+<h1 class="with-border">Previous Posts</h1>
+<ul class="posts">
+    {% for post in site.posts offset:2 limit:8 %}
+    <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
     {% endfor %}
-    <h1 class="with-border">Previous Posts</h1>
-    <ul class="posts">
-        {% for post in site.posts offset:2 limit:8 %}
-        <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
-        {% endfor %}
-        <br>
+    <p>
         <a href="{{site.base_dir}}/archives">More posts &raquo;</a>
-    </ul>
-    <h1 id="Projects" class="with-border">Projects</h1>
-    <ul class="posts">
-        <li><a href="http://github.com/carlosedp/vimfiles/">My Vimfiles:</a> My VIM configuration files and submodules.</li>
-        <li><a href="http://code.google.com/p/stacklessexamples/">Stackless Python Examples:</a> Project to build Stackless Python usage examples and libs.</li>
-        <li><a href="http://code.google.com/p/pspstacklesspython/">PSPStackless Python:</a> A Stackless Python port for Sony PSP. Not updated.</li>
-    </ul>
-</div>
+    </p>
+</ul>
+<h1 id="Projects" class="with-border">Projects</h1>
+<ul class="posts">
+    <li><a href="http://github.com/carlosedp/vimfiles/">My Vimfiles:</a> My VIM configuration files and submodules.</li>
+    <li><a href="http://code.google.com/p/stacklessexamples/">Stackless Python Examples:</a> Project to build Stackless Python usage examples and libs.</li>
+    <li><a href="http://code.google.com/p/pspstacklesspython/">PSPStackless Python:</a> A Stackless Python port for Sony PSP. Not updated.</li>
+</ul>

@@ -5,4 +5,4 @@ pygments: true
 base_url: http://carlosedp.com
 
 name: Shallow Thoughts
-permalink: /:title.html
+permalink: /posts/:title.html

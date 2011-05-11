@@ -1,5 +1,3 @@
-
-
 desc 'clean'
 task :clean do
     puts 'Cleaning old ./_site dir'
