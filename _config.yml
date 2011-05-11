@@ -1,4 +1,4 @@
-exclude: ['sass', 'README.markdown', 'config.rb']
+exclude: ['sass', 'README.markdown', 'config.rb', 'Rakefile']
 markdown: rdiscount
 pygments: true
 
