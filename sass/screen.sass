@@ -12,6 +12,8 @@ $olives: #837b47
 $gardens: #adb85f
 $reflection: #e5edb8
 
+
+/* Structure Elements */
 body
   font-family: $body-font-family
   color: $goodwill
@@ -128,6 +130,73 @@ body
       &:hover
         +opacity(0.8)
 
+
+/* Headers */
+.title
+  font-family: $menus-font-family
+  font-weight: 800
+  font-size: 40px
+  text-align: center
+  line-height: 1.5em
+  text-shadow: rgba(0, 0, 0, 0.25) 2px 2px 0px
+
+h1
+  font-family: $menus-font-family
+  font-weight: 700
+  font-size: 130%
+  line-height: 2.5em
+  text-shadow: rgba(0, 0, 0, 0.25) 1px 1px 0px
+
+h2
+  font-family: $menus-font-family
+  font-weight: 700
+  font-size: 110%
+  line-height: 2.5em
+  text-shadow: rgba(0, 0, 0, 0.25) 1px 1px 0px
+  margin: 15px 0 15px 0
+
+h3
+  font-family: $menus-font-family
+  font-weight: 700
+  font-size: 100%
+  line-height: 2.5em
+  text-shadow: rgba(0, 0, 0, 0.25) 1px 1px 0px
+  margin: 15px 0 15px 0
+
+.with-border
+  border-top: 2px solid #B7A6AE
+
+.post-title
+  font-family: $menus-font-family
+  font-weight: 700 !important
+  font-size: 110% !important
+  line-height: 1.5em !important
+  text-shadow: rgba(0, 0, 0, 0.25) 1px 1px 0px
+  margin-bottom: 25px !important
+
+.post h1
+  font-size: 105%
+  line-height: 1.5em
+  margin-bottom: 15px
+  font-weight: 600
+
+.post h2
+  font-size: 100%
+  line-height: 1.5em
+  margin-bottom: 15px
+  font-weight: 600
+
+.post h3
+  font-size: 100%
+  line-height: 1.5em
+  margin-bottom: 15px
+  font-weight: 500
+
+/* Page Elements */
+
+.post
+  padding-bottom: 40px
+
 p
   text-align: justify
   margin-bottom: 10px
@@ -144,48 +213,6 @@ a
 
 p a, page a, .posts a
   border-bottom: 1px dotted
-
-h1
-  font-size: 130%
-  font-weight: 700
-  font-family: $menus-font-family
-  line-height: 2.5em
-  text-shadow: rgba(0, 0, 0, 0.25) 1px 1px 0px
-
-.with-border
-  border-top: 2px solid #B7A6AE
-
-h1.title
-  text-align: center
-  font-size: 40px
-  font-weight: 800
-  line-height: 1.5em
-  text-shadow: rgba(0, 0, 0, 0.25) 2px 2px 0px
-
-article h1
-  font-size: 110%
-  line-height: 1.5em
-  margin-bottom: 25px
-
-post h1
-  font-size: 110%
-  line-height: 1.5em
-  margin-bottom: 15px
-  margin-top: 15px
-
-page h1
-  margin-bottom: 15px
-  margin-top: 15px
-
-h2
-  font-size: 140%
-  font-weight: 500
-  margin: 15px 0 15px 0
-
-h3
-  font-size: 110%
-  font-weight: 500
-  margin: 15px 0 15px 0
 
 page ul
   li
@@ -204,23 +231,21 @@ page img
 ul.posts
   list-style-type: none
   margin-bottom: 1em
+  li
+    line-height: 1.75em
+  span
+    color: #888
+    font-family: Monaco, "Courier New", monospace
+    font-size: 90%    
 
-ul.posts li
-  line-height: 1.75em
-
-ul.posts span
-  color: #888
-  font-family: Monaco, "Courier New", monospace
-  font-size: 90%
 
 .date
-  color: #800000
   display: block
   float: right
   font-weight: bold
   width: 80px
   em
-    border-right: 1px solid #800000
+    border-right: 1px solid $goodwill
     display: block
     float: left
     font-size: 30px
@@ -251,40 +276,20 @@ blockquote
   width: 460px
   border-left: #666 4px solid
 
-article
-  padding-bottom: 40px
-
-/* standard
-#post pre
+pre
   border: 1px solid #ddd
   background-color: #eef
-  padding: 0 .4em
+  padding: 0 1em
+  margin: 10px 0
 
-#post ul,
-#post ol
-  margin-left: 1.35em
-
-#post code
+code
+  font-family: monospace 
   border: 1px solid #ddd
   background-color: #eef
   font-size: 85%
   padding: 0 .2em
 
-#post pre code
+pre code
   border: none
 
-/* terminal
 
-#post pre.terminal
-  border: 1px solid black
-  background-color: #333
-  color: white
-
-#post pre.terminal code
-  background-color: #333
-
-#related
-  margin-top: 2em
-
-#related h2
-  margin-bottom: 1em

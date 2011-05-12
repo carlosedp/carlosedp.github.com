@@ -1,8 +1,6 @@
 ---
 layout: post
 title: Sometimes you find great people too late.
-tags:
-    - blog
 ---
 
 Last week, while going thru my daily reading, a [post](http://http://daringfireball.net/linked/2011/05/04/derek-miller) by John Gruber caught my attention.

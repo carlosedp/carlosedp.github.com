@@ -2,11 +2,13 @@
 layout: default
 ---
 {% for post in site.posts limit:2 %}
-<article>
+<div class="post">
 <time class="date" datetime="{{ post.date | date: "%Y-%m-%d" }}">{{ post.date | date: "<em>%d</em><small>%b<br>%Y</small>" }}</time>
-<h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
+<h1 class="post-title">
+    <a href="{{ post.url }}">{{ post.title }}</a>
+</h1>
 {{ post.content }}
-</article></a>
+</div>
 {% endfor %}
 <h1 class="with-border">Previous Posts</h1>
 <ul class="posts">

@@ -1,9 +1,6 @@
 ---
 layout: post
 title: Blackberry has it's niche, like the boring Nokias
-tags:
-    - phones
-    - blog
 ---
 
 From [marco.org](http://http://www.marco.org/2011/05/02/more-blackberries-nobody-will-care-about):

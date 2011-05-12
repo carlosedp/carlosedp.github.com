@@ -10,22 +10,30 @@ task :build => [:clean] do
     sh "compass compile"
     puts 'Building Jekyll site'
     sh "jekyll"
-    sh "growlnotify -t Jekyll -m 'carlosedp.com built'"
+    sh %{growlnotify -t Jekyll -m 'carlosedp.com built'} do |ok, res|
+        if ! ok
+            puts 'Growlnotify not found.'
+        end
+    end
 end
 
 desc 'deploy via rsync'
 task :deploy => [:clean, :build] do
-  # uploads ALL files b/c I often do site-wide changes and prefer overwriting all
-  puts 'DEPLOYING TO Server'
-  # remove --rsh piece if not using 22  
-  sh "rsync -rtzh --progress --delete _site/ --rsh='ssh -p22' root@clyde.carlosedp.com:/var/www/carlosedp.com"
-  puts 'done!'
-  sh "growlnotify -t Jekyll -m 'carlosedp.com deployed'"
+    # uploads ALL files b/c I often do site-wide changes and prefer overwriting all
+    puts 'DEPLOYING TO Server'
+    # remove --rsh piece if not using 22
+    sh "rsync -rtzh --progress --delete _site/ --rsh='ssh -p22' root@clyde.carlosedp.com:/var/www/carlosedp.com"
+    puts 'done!'
+    sh %{growlnotify -t Jekyll -m 'carlosedp.com deployed'} do |ok, res|
+        if ! ok
+            puts 'Growlnotify not found.'
+        end
+    end
 end
 
 desc 'Create new post markdown file'
-  task :post, [:post_title] do |t,args|
+task :post, [:post_title] do |t,args|
     require 'date'
     system "echo \"---\nlayout: post\ntitle: #{args.post_title}\ncomments: true\n---\" >  _posts/#{Date.today.year}-#{Date.today.strftime("%m")}-#{Date.today.strftime("%d")}-#{args.post_title.downcase.split(' ').join('-')}.md"
-  end
+end
 
