@@ -5,7 +5,7 @@ title: About me
 # {{ page.title }}
 
 
-<img src="/images/Me.jpg" alt="Me" class="right">
+<img src="/images/Me.jpg" alt="Me" width=150px class="right">
 
 Hi! My name is Carlos Eduardo, also known by my friends as Duda. I'm a brazilian developer and tech enthusiast living in São Paulo. I currently work at a major mobile phone carrier as a project manager but I can not be kept away from coding or delving into bits for too long. I'm also a self-learner.
 
@@ -26,6 +26,8 @@ The source for it can be checked on my [GitHub](https://github.com/carlosedp/sha
 ## Stuff I use
 
 Inspired by the guys from [The Setup](http://usesthis.com/), I created this section where I list the hardware, applications and gadgets I use frequently. If you have any suggestion or a better option for anything I use, please [email me](mailto:me@carlosedp.com?subject=Stuff I Use Feedback). I will be glad to hear you.
+
+<img src="/images/Desktop.jpg" alt="Desktop" class="center">
 
 ### Services
 
