@@ -1,0 +1,19 @@
+---
+layout: post
+title: What would you buy first
+---
+
+Another day, [Ben Brooks](http://brooksreview.net/2011/05/buy-first/) posted on his site the software he would buy first if he had to start over. Also, he asked his followers to do the same. I like this kind of posts because it leads to great and otherwise unknown apps. 
+
+Well, here is my list:
+
+* [iStat Menus](http://bjango.com/mac/istatmenus/)
+* [Dropbox](http://www.dropbox.com)
+* [Lastpass](http://www.lastpass.com). Actually free but well worth getting the premium version
+* [Xmarks](http://www.xmarks.com). Free as well but worth getting the premium
+* Microsoft Office 2011. I can get it for $10 from a partnership with the company I work for
+* [Acorn](http://flyingmeat.com/acorn/) because Photoshop is too expensive for what I do
+* [Reeder](http://madeatgloria.com/brewery/silvio/reeder)
+* [Carbon Copy Cloner](www.bombich.com/software/ccc.html) free, but worth donation
+
+What's yours?
