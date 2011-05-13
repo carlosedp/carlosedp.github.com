@@ -6,18 +6,10 @@ layout: default
 <h1 class="post-title">{{ page.title }}</h1>
 {{ content }}
 </div>
-<div id="disqus_thread"></div>
-<script type="text/javascript">
-    var disqus_shortname = 'shallowthoughts';
-    var disqus_identifier = {{ site.base_url  }}{{ page.id }};
-    var disqus_url= {{ site.base_url  }}{{ page.url }};
-    (function() {
-        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-        dsq.src = 'http://shallowthoughts.disqus.com/embed.js';
-        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-    })();
-</script>
-<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
+<b:if cond='data:blog.pageType == &quot;item&quot;'> 
+<div><fb:comments width='450' expr:title='data:post.title' expr:url='data:post.url'   expr:xid='data:post.id'/></div> 
+</b:if> 
 
 <!--<div id="related">-->
   <!--<h2>Related Posts</h2>-->

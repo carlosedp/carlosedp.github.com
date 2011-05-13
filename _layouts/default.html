@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en-US">
+<html xmlns=”http://www.w3.org/1999/xhtml” xmlns:fb=”http://www.facebook.com/2008/fbml” xml:lang=”en” lang=”en”>
     <head>
         <meta charset="utf-8"/>
         <!--[if IE]><![endif]-->
@@ -19,6 +19,19 @@
 
         <!-- Homepage CSS -->
         <link rel="stylesheet" href="/css/screen.css" type="text/css" media="screen, projection" />
+        <!--Facebook Stuff-->
+        <b:if cond='data:blog.pageType == &quot;item&quot;'>
+        <meta   expr:content='data:blog.pageTitle' property='og:title'/>
+        <meta   expr:content='data:blog.url' property='og:url'/>
+        <b:else/>
+        <meta   expr:content='data:blog.title' property='og:title'/>
+        <meta   expr:content='data:blog.homepageUrl' property='og:url'/>
+        </b:if>
+        <meta   content='Shallow Thoughts' property='og:site_name'/>
+        <meta content='115131538572926'   property='fb:app_id'/>
+        <meta content='200903646587416'   property='fb:admins'/>
+        <meta content='article'   property='og:type'/>
+
     </head>
     <body>
         <div class="bands">
@@ -96,5 +109,23 @@
                 s.parentNode.insertBefore(g, s);
             })(document, 'script');
         </script>
+        <div id="fb-root"></div>
+        <script>
+            window.fbAsyncInit = function() {
+                FB.init({
+                    appId  : '115131538572926',
+                    status : true, // check login status
+                    cookie : true, // enable cookies to allow the server to access the   session
+                    xfbml  : true  // parse XFBML
+                });
+            };
+            (function() {
+                var e = document.createElement('script');
+                e.src = document.location.protocol +   '//connect.facebook.net/en_US/all.js';
+                e.async = true;
+                document.getElementById('fb-root').appendChild(e);
+            }());
+        </script>
+
     </body>
 </html>
