@@ -31,6 +31,13 @@ task :deploy => [:clean, :build] do
     end
 end
 
+desc 'run local server'
+task :server => [:build] do
+    puts 'Running local server'
+    sh 'open http://localhost:4000'
+    sh 'jekyll --server --auto'
+end
+
 desc 'Create new post markdown file'
 task :post, [:post_title] do |t,args|
     require 'date'

@@ -3,6 +3,7 @@ markdown: rdiscount
 pygments: true
 
 base_url: http://carlosedp.com
+frontpage_posts: 4
 
 name: Shallow Thoughts
 permalink: /posts/:title.html

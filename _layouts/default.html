@@ -1,9 +1,16 @@
-<!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
+<!doctype html>
+<html lang="en-US">
     <head>
-        <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+        <meta charset="utf-8"/>
+        <!--[if IE]><![endif]-->
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
         <title>{% if page.title %}{{ page.title }} - {% endif %}{{ site.name }}</title>
-        <meta name="author" content="Carlos Eduardo de Paula" />
+        <meta name="description" content="Personal blog regarding Tech News, Apple , Design and Guides from Carlos Eduardo."/>
+        <meta name="author" content="Carlos Eduardo de Paula"/>
+        <meta name="copyright" content="Copyright 2010 to Present"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <!--ALL CONTENT COPYRIGHT Carlos Eduardo de Paula 2010-2011 UNLESS OTHERWISE NOTED-->
+        <link rel="canonical" href="http://carlosedp.com"/>
         <link rel="apple-touch-icon" href="/touch-icon.png"/>
         <link href="http://feeds.feedburner.com/shallow-thoughts" rel="alternate" title="Shallow Thoughts Feed" type="application/atom+xml" />
 
@@ -32,16 +39,16 @@
                     <span class="about">Random thinker, developer, tech fanatic and aspiring musician from São Paulo / Brazil</span>
                     <br/><br/>
                     <span class="twitter">
-                        <a href="http://twitter.com/carlosedp">@carlosedp</a>                        
+                        <a href="http://twitter.com/carlosedp">@carlosedp</a>
                     </span>
                 </div>
                 <br/>
                 <ul>
-                    <li><a href="/">Home</li></a>
-                    <li><a href="/#Projects">Projects</li></a>
-                    <li><a href="/archives">Archives</li></a>
-                    <li><a href="/search">Search</li></a>
-                    <li><a href="/about">About</li></a>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/#Projects">Projects</a></li>
+                    <li><a href="/archives">Archives</a></li>
+                    <li><a href="/search">Search</a></li>
+                    <li><a href="/about">About</a></li>
                 </ul>
             </div>
             <div id="content">
@@ -51,16 +58,24 @@
             <div id="footer">
                 <div class="contact">
                     <p>
-                        Design & Content by Carlos Eduardo de Paula<br/>
+                        Design &amp; Content by Carlos Eduardo de Paula<br/>
                         Contact me at:
-                        <a href="mailto:me@carlosedp.com?subject=Shallow Thoughts - Feedback">me@carlosedp.com</a><br/>
+                        <a href="mailto:me@carlosedp.com?subject=Shallow%20Thoughts%20-%20Feedback">me@carlosedp.com</a><br/>
                     </p>
                 </div>
                 <div class="icons">
-                    <a href="http://github.com/carlosedp/"><img src="/images/Github-Icon-Small.png", alt="Github"/></a>
-                    <a href="http://twitter.com/carlosedp"><img src="/images/Twitter-Icon-Small.png", alt="Twitter"/></a>
-                    <a href="http://facebook.com/carlosedp"><img src="/images/Facebook-Icon-Small.png", alt="Facebook"/></a>
-                    <a href="http://flickr.com/photos/carlosedp"><img src="/images/Flickr-Icon-Small.png", alt="Flickr"/></a>
+                    <a href="http://github.com/carlosedp/">
+                        <img src="/images/Github-Icon-Small.png" alt="Github"/>
+                    </a>
+                    <a href="http://twitter.com/carlosedp">
+                        <img src="/images/Twitter-Icon-Small.png" alt="Twitter"/>
+                    </a>
+                    <a href="http://facebook.com/carlosedp">
+                        <img src="/images/Facebook-Icon-Small.png" alt="Facebook"/>
+                    </a>
+                    <a href="http://flickr.com/photos/carlosedp">
+                        <img src="/images/Flickr-Icon-Small.png" alt="Flickr"/>
+                    </a>
                     <a href="http://feeds.feedburner.com/shallow-thoughts">
                         <img src="/images/rss.png" alt="Subscribe to RSS Feed"/>
                     </a>
@@ -71,16 +86,15 @@
 
 
         <!-- Google Analytics -->
-        <script type="text/javascript">
-            var _gaq = _gaq || [];
-            _gaq.push(['_setAccount', 'UA-555853-6']);
-            _gaq.push(['_trackPageview']);
-
-            (function() {
-                var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-                ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-                    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-            })();
+        <script>
+            var _gaq = [['_setAccount', 'UA-555853-6'], ['_trackPageview']];
+            (function(d, t) {
+                var g = d.createElement(t),
+                s = d.getElementsByTagName(t)[0];
+                g.async = true;
+                g.src = '//www.google-analytics.com/ga.js';
+                s.parentNode.insertBefore(g, s);
+            })(document, 'script');
         </script>
     </body>
 </html>

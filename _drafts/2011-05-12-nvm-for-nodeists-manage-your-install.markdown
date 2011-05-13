@@ -68,7 +68,7 @@ and to install the modules, use:
 in the project dir.
 
 To install a module globally, use the command:
-    npm -g module
+    npm install module -g
 
 and it will be available anywhere.
 
