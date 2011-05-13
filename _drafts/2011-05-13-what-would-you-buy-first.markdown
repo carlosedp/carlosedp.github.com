@@ -16,4 +16,6 @@ Well, here is my list:
 * [Reeder](http://madeatgloria.com/brewery/silvio/reeder)
 * [Carbon Copy Cloner](www.bombich.com/software/ccc.html) free, but worth donation
 
+Also, check stuff I use on [about](http://carlosedp.com/about).
+
 What's yours?
