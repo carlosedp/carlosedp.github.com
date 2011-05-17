@@ -12,7 +12,7 @@ Well, here is my list:
 * [Lastpass](http://www.lastpass.com). Actually free but well worth getting the premium version
 * [Xmarks](http://www.xmarks.com). Free as well but worth getting the premium
 * [Microsoft Office 2011](http://www.microsoft.com/mac). I can get it for $10 from a partnership with the company I work for
-* [http://www.adobe.com/products/photoshop.html](Adobe Photoshop)
+* [Adobe Photoshop](http://www.adobe.com/products/photoshop.html)
 * [Reeder](http://madeatgloria.com/brewery/silvio/reeder)
 * [Carbon Copy Cloner](www.bombich.com/software/ccc.html) free, but worth donation
 
