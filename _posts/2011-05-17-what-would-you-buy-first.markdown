@@ -11,11 +11,11 @@ Well, here is my list:
 * [Dropbox](http://www.dropbox.com)
 * [Lastpass](http://www.lastpass.com). Actually free but well worth getting the premium version
 * [Xmarks](http://www.xmarks.com). Free as well but worth getting the premium
-* Microsoft Office 2011. I can get it for $10 from a partnership with the company I work for
-* [Acorn](http://flyingmeat.com/acorn/) because Photoshop is too expensive for what I do
+* [Microsoft Office 2011](http://www.microsoft.com/mac). I can get it for $10 from a partnership with the company I work for
+* [http://www.adobe.com/products/photoshop.html](Adobe Photoshop)
 * [Reeder](http://madeatgloria.com/brewery/silvio/reeder)
 * [Carbon Copy Cloner](www.bombich.com/software/ccc.html) free, but worth donation
 
-Also, check stuff I use on [about](http://carlosedp.com/about).
+Also, check other apps I use on [about](http://carlosedp.com/about) page.
 
-What's yours?
+What's your list?

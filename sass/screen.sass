@@ -107,8 +107,8 @@ body
   float: right
   width: 650px
 
-#previous
-  margin-bottom: 15px
+#previous, #projects
+  margin-bottom: 20px
 
 #footer
   clear: both
@@ -198,11 +198,19 @@ h3
 /* Page Elements */
 
 .post
-  padding-bottom: 40px
+  margin-bottom: 40px
+
+.post ul
+  li
+    list-style-type: disc
+    font-size: 15px
+    margin-left: 25px
+    margin-bottom: 5px
+    
 
 p
   text-align: justify
-  margin-bottom: 10px
+  margin: 10px 0 10px 0
 
 a
   +transition(color, 0.3s, ease-in-out, initial)
@@ -214,7 +222,7 @@ a
   &:hover
     color: $olives
 
-p a, page a, .posts a, #previous a, #projects a
+p a, page a, .posts a, .post a, #previous a, #projects a
   border-bottom: 1px dotted
 
 page ul
