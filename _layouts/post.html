@@ -10,3 +10,12 @@ layout: default
 <b:if cond='data:blog.pageType == &quot;item&quot;'> 
 <div><fb:comments width='550' numposts='10' expr:title='data:post.title' expr:url='data:post.url'   expr:xid='data:post.id'/></div> 
 </b:if> 
+<div id="previous">
+    <h1 class="with-border">Previous Posts</h1>
+    <ul class="posts">
+        {% for post in site.posts limit:4 %}
+        <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
+        {% endfor %}
+    </ul>
+    <a href="{{site.base_dir}}/archives">More posts &raquo;</a>
+</div> 
