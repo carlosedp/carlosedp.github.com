@@ -1,5 +1,7 @@
-Keeping your Mac contacts in sync with Gmail
-============================================
+---
+layout: post
+title: Keeping your Mac contacts in sync with Gmail.
+---
 
 A few days ago, I was struggling to find a way to keep my contacts in sync between my Mac and Gmail.
 
