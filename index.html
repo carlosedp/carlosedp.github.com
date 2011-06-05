@@ -3,11 +3,17 @@ layout: default
 ---
 {% for post in site.posts limit:{{site.frontpage_posts}} %}
 <div class="post">
-    <time class="date" datetime="{{ post.date | date: "%Y-%m-%d" }}">{{ post.date | date: "<em>%d</em><small>%b<br/>%Y</small>" }}</time>
     <h1 class="post-title">
         <a href="{{ post.url }}">{{ post.title }}</a>
     </h1>
-    {{ post.content }}
+
+    <time class="date" datetime="{{ post.date | date: "%Y-%m-%d" }}">{{ post.date | date: "<em>%d</em><small>%b<br/>%Y</small>" }}</time>
+    <div class="plusone">
+        <g:plusone size="small" href="{{site.base_url}}{{ post.url }}"></g:plusone>
+    </div>
+    <div class="post-content">
+        {{ post.content }}
+    </div>
 </div>
 {% endfor %}
 <div id="previous">

@@ -170,6 +170,8 @@ h3
   border-top: 2px solid #B7A6AE
 
 .post-title
+  display: block
+  float: left
   font-family: $menus-font-family
   font-weight: 700 !important
   font-size: 110% !important
@@ -177,6 +179,8 @@ h3
   text-shadow: rgba(0, 0, 0, 0.25) 1px 1px 0px
   margin-bottom: 25px !important
 
+.post-content
+  clear: both
 
 .post h1
   font-size: 16px
@@ -276,6 +280,11 @@ ul.posts
     padding-left: 5px
     width: 33px
 
+.plusone
+  display: block
+  float: right
+  padding-top: 6px
+
 blockquote
   color: #666
   display: block
@@ -293,16 +302,29 @@ blockquote
   border-left: #666 4px solid
 
 pre
+  +border-radius(5px)
+  width: 610px
+  overflow-x: hidden
+  +transition(all, 1s, ease)
+  transition: all 1s ease
   border: 1px solid #ddd
   background-color: #eef
   padding: 0 1em
   margin: 10px 0
+  &:hover
+    width: 820px
+    white-space: none !important
+    word-wrap: none !important
+
+pre.noexpand
+  &:hover
+    width: 610px !important
 
 code
   font-family: monospace
   border: 1px solid #ddd
   background-color: #eef
-  font-size: 85%
+  font-size: 75%
   padding: 0 .2em
 
 pre code
