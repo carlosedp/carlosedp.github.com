@@ -20,4 +20,6 @@ BrowserMatch bMSIE !no-gzip !gzip-only-text/html
 
 ErrorDocument 404 /404.html
 
+#Google+ redirect
+RedirectMatch ^/\+(.*)$ http://plus.google.com/104461449883701745165$1
 
