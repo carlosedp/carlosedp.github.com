@@ -17,7 +17,7 @@ You can see more about my professional profile on [Linkedin](http://br.linkedin.
 
 ## About this site
 
-This site came form the need to have a single place to keep my projects and writings. It is created with [Jekyll](https://github.com/mojombo/jekyll/) site engine and based on flat-files only, no DB.
+This site came from the need to have a single place to keep my projects and writings. It is created with [Jekyll](https://github.com/mojombo/jekyll/) site engine and based on flat-files only, no DB.
 
 The design was created from scratch based on colour palletes from [ColourLovers](http://www.colourlovers.com/) and the design, inspired by lots of sites I visit everyday. Everything was made on VIM and the CSS compiled with [Compass for SASS](http://compass-style.org).
 

@@ -5,9 +5,9 @@ title: That crazy feeling when you find a new band. Phish.
 
 About a month ago, while reading some posts on [Marco Arment](http://marco.org) blog, one got my attention, the [one about Phish](http://www.marco.org/2011/05/26/geek-intro-to-phish), a rock band that shines on live performances with long jams and heavy improvisation with jazz and fusion elements.
 
-Since that day, Ive been listening to a some of their albuns and a bunch of their live performances, which I found amazing.
+Since that day, Ive been listening to a some of their albums and a bunch of their live performances, which I found amazing.
 
-Like Marco stated, the band strenghts is on stage, the guitar tones are great, and the whole band amazes me every new tune I listen.
+Like Marco stated, the band strengths is on stage, the guitar tones are great, and the whole band amazes me every new tune I listen.
 
 For the lovers of great music, there's nothing better than finding a previously unknown band and start exploring their tunes discovering new stuff.
 
