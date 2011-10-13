@@ -5,7 +5,7 @@ title: About me
 # {{ page.title }}
 
 
-<img src="/images/Me.jpg" alt="Me" width=150px class="right">
+<img src="/images/Me2.jpg" alt="Me" width=150px class="right">
 
 Hi! My name is Carlos Eduardo, also known by my friends as Duda. I'm a brazilian developer and tech enthusiast living in São Paulo. I currently work at a major mobile phone carrier as a project manager but I can not be kept away from coding or delving into bits for too long. I'm also a self-learner.
 
@@ -33,9 +33,9 @@ Inspired by the guys from [The Setup](http://usesthis.com/), I created this sect
 
 * Google Apps for my domain (Email, Calendar)
 * [Xmarks](http://www.xmarks.com) for bookmark sync
-* [Soocial](http://www.soocial.com) to keep my contacts in sync
+* [My own solution](http://carlosedp.com/posts/keeping-your-mac-contacts-in-sync.html) to keep contacts in sync
 * [Dropbox](http://www.dropbox.com) to have files available between computers and iPhone
-* [Evernote](http://www.evernote.com) to have easy access to my notes
+* [Simplenote](https://simple-note.appspot.com) to have easy access to my notes
 * [Lastpass](http://www.lastpass.com) for password sync
 * Google Reader for all my news consuption
 
@@ -53,18 +53,18 @@ Inspired by the guys from [The Setup](http://usesthis.com/), I created this sect
 
 * Google Chrome
 * [MacVim](http://code.google.com/p/macvim/) (gVim on Windows) for coding.(check my Vimfiles project)
-* [iTerm 2](http://code.google.com/p/iterm2/) a fantastic tabbed terminal.
-* [Evernote](http://www.evernote.com)
-* [Tweetdeck](http://www.tweetdeck.com) or sometimes Twitter for Mac
-* iCal
+* [iTerm 2](http://code.google.com/p/iterm2/) a fantastic tabbed terminal
+* [NVAlt](http://brettterpstra.com/project/nvalt/), a Notational Velocity fork to manage Simplenote notes
+* [MenuBarFilter](http://eece.github.com/MenuBarFilter/) to invert the menubar
+* [Tweetdeck](http://www.tweetdeck.com) or sometimes Twitter Client for Mac
+* iCal, Mac's own calendar app
 * [Fluid.app](http://www.fluidapp.com) for Gmail and Facebook SSBs
-* [iStat Menus](http://http://www.islayer.com/), the network and clock items are great.
+* [iStat Menus](http://http://www.islayer.com/), the network and clock items are great
 * [HyperDock](http://hyperdock.bahoom.de) permits window snapping and previews hovering the dock
 * [F.lux](http://http://stereopsis.com/flux/) makes working at night a pleasure
 * [SoundSource](http://www.rogueamoeba.com/freebies/) as a replacement to volume menu item
-* [Nocturne](http://docs.blacktree.com/) to invert menubar into black
 * [BetterTouchTool](http://www.boastr.de/) to create new gestures
-* [FunctionFlip](http://kevingessner.com/software/functionflip/). I have F1-F6 as functions to use on VIM mappings and keep F7-F12 as iTunes controls.
+* [FunctionFlip](http://kevingessner.com/software/functionflip/). I have F1-F6 as functions to use on VIM mappings and keep F7-F12 as iTunes controls
 * [Perian](http://perian.org)Perian to decode all video formats inside Quicktime
 * [Reeder](http://reederapp.com/) to keep updated on RSS
 * [Carbon Copy Cloner](http://www.bombich.com/) for backups
@@ -76,7 +76,7 @@ Inspired by the guys from [The Setup](http://usesthis.com/), I created this sect
 * [Wunderlist](http://www.wunderlist.com), just started using this great ToDo app
 * Microsoft Office 2011
 * [AppCleaner](http://www.freemacsoft.net/AppCleaner/) to uninstall applications
-* [AppFresh](http://metaquark.de/appfresh/)to keep apps up-to-date
+* [AppFresh](http://metaquark.de/appfresh/) to keep apps up-to-date
 * [Virtualbox](http://www.virtualbox.org/) for my VM needs
 
 ### Gadgets
@@ -89,4 +89,4 @@ Inspired by the guys from [The Setup](http://usesthis.com/), I created this sect
 * Klipsh Custom-3 in-ear earphones. One of the best in-ear phones ever except for the crappy cables.
 
 <br>
-Last update on 10/05/2011
+Last update on 05/09/2011
