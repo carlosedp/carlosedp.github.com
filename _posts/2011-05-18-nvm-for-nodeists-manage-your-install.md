@@ -47,6 +47,7 @@ NPM was recently updated to version 1.0. In this new version, it installs the pa
 
 To manage dependencies, create a `package.json` for your project:
 
+{% highlight javascript %}
     {
       "name": "Project Name",
       "description": "Project Description.",
@@ -61,6 +62,7 @@ To manage dependencies, create a `package.json` for your project:
       },
       "engines": { "node": ">= 0.4.6" }
     }
+{% endhighlight %}
 
 and to install the modules, use:
     npm install .
