@@ -1,6 +1,6 @@
 ---
 layout: post
-title: My reasons why Apple is unlikely to launch a TV Set.
+title: My reasons why it's unlikely to Apple launch a TV Set.
 ---
 
 Everyone is talking about Apple launching a TV set. I think it's highly unlikely and here are my reasons:
