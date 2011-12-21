@@ -7,7 +7,7 @@ title: About me
 
 <img src="/images/Me2.jpg" alt="Me" width=150px class="right">
 
-Hi! My name is Carlos Eduardo. I'm a brazilian developer and tech enthusiast from Brazil working at a major mobile phone carrier.
+Hi! My name is Carlos Eduardo. I'm a Brazilian developer and tech enthusiast from Brazil working at a major mobile phone carrier.
 
 My great passion is write software, fiddling with new technologies and trying to keep up to the latest gadgets available.
 
@@ -19,7 +19,7 @@ You can see more about my professional profile on [Linkedin](http://br.linkedin.
 
 This site came from the need to have a single place to keep my projects and writings. It is created with [Jekyll](https://github.com/mojombo/jekyll/) engine.
 
-The design was created from scratch based on colour palletes from [ColourLovers](http://www.colourlovers.com/). Everything was made on VIM and the CSS compiled with [Compass for SASS](http://compass-style.org).
+The design was created from scratch based on colour palettes from [ColourLovers](http://www.colourlovers.com/). Everything was made on VIM and the CSS compiled with [Compass for SASS](http://compass-style.org).
 
 The source for it can be checked on my [GitHub](https://github.com/carlosedp/carlosedp.github.com) repository.
 
@@ -36,20 +36,20 @@ Inspired by the guys from [The Setup](http://usesthis.com/), I created this sect
 * [Dropbox](http://www.dropbox.com) to have files available between computers and iPhone
 * [Simplenote](https://simple-note.appspot.com) to have easy access to my notes
 * [Lastpass](http://www.lastpass.com) for password sync
-* Google Reader for all my news consuption
+* Google Reader for all my news consumption
 
 ### Hardware
 
 * 13-inch MacBook Pro early 2011 model (4GB RAM, Core i5)
 * 21.5-inch iMac 3.06Ghz Core2Duo with 4GB RAM
-* Seagate 2TB external harddrive for backing up with Time Machine.
-* External enclosure with 1TB harddrive used to store movies and TV Shows shared on wi-fi
-* Netgear WNDR3400 wireless router with 1TB HD connected to it's USB
-* Logitech V470 bluetooth mouse that's barely used since MBP trackpad is great
+* Seagate 2TB external hard drive for backing up with Time Machine.
+* External enclosure with 1TB hard drive used to store movies and TV Shows shared on Wi-Fi
+* Netgear WNDR3400 wireless router
+* Logitech V470 bluetooth mouse that's barely used since the MBP trackpad is great
 
 ### Applications
 
-* [Google Chrome](http://www.google.com/chrome)
+* [Google Chrome](http://www.google.com/chrome) beta or dev channels
 * [MacVim](http://code.google.com/p/macvim/) (gVim on Windows) for coding.(check my Vimfiles project)
 * [iTerm 2](http://code.google.com/p/iterm2/) a fantastic tabbed terminal
 * [NVAlt](http://brettterpstra.com/project/nvalt/), a Notational Velocity fork to manage Simplenote notes
@@ -63,7 +63,6 @@ Inspired by the guys from [The Setup](http://usesthis.com/), I created this sect
 * [SoundSource](http://www.rogueamoeba.com/freebies/) as a replacement to volume menubar item
 * [FunctionFlip](http://kevingessner.com/software/functionflip/). I have F1-F6 as functions to use on VIM mappings and keep F7-F12 as iTunes controls
 * [Perian](http://perian.org)Perian to decode all video formats inside Quicktime
-* [Carbon Copy Cloner](http://www.bombich.com/) for backups
 * [Musicbrainz Picard](http://musicbrainz.org/doc/MusicBrainz_Picard) to tag all my music before going into the library
 * [Skype](http://www.skype.com)
 * [Adium](http://adium.im) for IM
@@ -75,11 +74,11 @@ Inspired by the guys from [The Setup](http://usesthis.com/), I created this sect
 ### Gadgets
 
 * Self made [hybrid-tube](http://diyaudioprojects.com/Solid/12AU7-IRF510-LM317-Headamp/) headphone amplifier
-* XBMC running on a 3yo semi-working Macbook white as media center.
+* XBMC running on a 3yo Macbook white as media center.
 * Canon Powershot SD1400 compact camera
 * iPhone 4 32GB
 * [Grado Labs](http://www.gradolabs.com) SR60i headphones.
 * Klipsh Custom-3 in-ear earphones. One of the best in-ear phones ever except for the crappy cables.
 
 <br>
-Last update on 25/11/2011
+Last update on 15/12/2011
