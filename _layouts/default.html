@@ -30,7 +30,11 @@
         </div>
         <div id="container">
             <div id="header">
-                <a href="/"><h1 class="title">{{ site.name }}</h1></a>
+                {% if page.title %}
+                    <a href="/"><h1 class="title">{{ site.name }}</h1></a>
+                {% else %}
+                    <h1 class="title">{{ site.name }}</h1>
+                {% endif %}
             </div>
             <div id="nav-left">
                 <div id="about-box">
