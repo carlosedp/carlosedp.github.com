@@ -2,8 +2,10 @@
 @import compass
 
 //$font-family: "Helvetica Neue", "Helvetica", "Arial", "sans-serif"
-$body-font-family: "Trebuchet MS", Helvetica, Arial, sans-serif
-$menus-font-family: Verdana, Arial, Helvetica, sans-serif
+$body-font-family: 'Lato', sans-serif 
+//"Trebuchet MS", Helvetica, Arial, sans-serif
+$menus-font-family: 'Lato', sans-serif
+//Verdana, Arial, Helvetica, sans-serif
 
 /*Colour pallete from http://www.colourlovers.com/palette/728391/Dig_My_Olive_Branch */
 $raspberry: #300018
@@ -22,7 +24,7 @@ body
   -webkit-font-smoothing: antialiased
   line-height: 1.2
   font-weight: normal
-  font-size: 16px
+  font-size: 1em
 
 .bands
   display: block
@@ -88,12 +90,12 @@ body
     border-bottom: 1px solid $gardens
     border-right: 1px solid $gardens
     .name
-      font-size: 95%
+      font-size: 1em
       font-weight: 700
     .about
-      font-size: 70%
+      font-size: 0.8em
     .twitter
-      font-size: 75%
+      font-size: 0.9em
       font-weight: 700
   ul
     li
@@ -113,7 +115,7 @@ body
 #footer
   clear: both
   margin: 0 auto
-  font-size: 80%
+  font-size: 0.8em
   color: #444
   border-top: 4px solid $raspberry
   padding: 10px
@@ -141,22 +143,23 @@ body
 .title
   font-family: $menus-font-family
   font-weight: 800
-  font-size: 40px
+  font-size: 2.5em
   text-align: center
-  line-height: 1.5em
+  line-height: 1em
+  letter-spacing: 3px
   text-shadow: #555 0px 2px 3px
 
 h1
   font-family: $menus-font-family
   font-weight: 700
-  font-size: 130%
+  font-size: 1.3em
   line-height: 2.5em
   text-shadow: rgba(0, 0, 0, 0.25) 1px 1px 0px
 
 h2
   font-family: $menus-font-family
   font-weight: 700
-  font-size: 110%
+  font-size: 1.1em
   line-height: 2.5em
   text-shadow: rgba(0, 0, 0, 0.25) 1px 1px 0px
   margin: 15px 0 15px 0
@@ -164,7 +167,7 @@ h2
 h3
   font-family: $menus-font-family
   font-weight: 700
-  font-size: 100%
+  font-size: 1em
   line-height: 2.5em
   text-shadow: rgba(0, 0, 0, 0.25) 1px 1px 0px
   margin: 15px 0 15px 0
@@ -177,7 +180,7 @@ h3
   float: left
   font-family: $menus-font-family
   font-weight: 700 !important
-  font-size: 110% !important
+  font-size: 1.1em !important
   line-height: 1.5em !important
   text-shadow: rgba(0, 0, 0, 0.25) 1px 1px 0px
   margin-bottom: 25px !important
@@ -186,19 +189,19 @@ h3
   clear: both
 
 .post h1
-  font-size: 16px
+  font-size: 1em
   line-height: 1.5em
   margin-bottom: 15px
   font-weight: 600
 
 .post h2
-  font-size: 15px
+  font-size: 0.9em
   line-height: 1.5em
   margin-bottom: 15px
   font-weight: 600
 
 .post h3
-  font-size: 14px
+  font-size: 0.8em
   line-height: 1.5em
   margin-bottom: 15px
   font-weight: 600
@@ -212,13 +215,13 @@ h3
   ul
     list-style-type: disc
     li
-      font-size: 15px
+      font-size: 0.9em
       margin-left: 25px
       margin-bottom: 5px
   ol
     list-style-type: decimal
     li
-      font-size: 15px
+      font-size: 0.9em
       margin-left: 25px
       margin-bottom: 5px
 
@@ -242,7 +245,7 @@ p a, page a, .posts a, .post li a, #previous a, #projects a
 page ul
   li
     list-style-type: disc
-    font-size: 15px
+    font-size: 0.9em
     margin-left: 25px
     margin-bottom: 5px
 
@@ -265,7 +268,7 @@ ul.posts
   span
     color: #888
     font-family: Monaco, "Courier New", monospace
-    font-size: 90%
+    font-size: 0.9em
 
 
 .date
@@ -275,17 +278,14 @@ ul.posts
   width: 80px
   em
     border-right: 1px solid $goodwill
-    display: block
     float: left
-    font-size: 30px
-    font-style: normal
-    line-height: 30px
+    font-size: 1.8em
+    line-height: 1.8em
     padding-right: 5px
     width: 34px
   small
-    display: block
     float: right
-    font-size: 12px
+    font-size: 0.75em
     padding-left: 5px
     width: 33px
 
@@ -302,8 +302,8 @@ ul.posts
 blockquote
   color: #666
   display: block
-  font-size: 13px
-  line-height: 18px
+  font-size: 0.9em
+  line-height: 1.1em
   margin-bottom: 10px
   margin-left: 18px
   margin-right: 18px
@@ -321,7 +321,7 @@ pre
   overflow: hidden
   +single-transition(all, 1s, ease)
   border: 1px solid #ddd
-  background-color: #ffffcc
+  background-color: #F8FAEB
   padding: 0 1em
   margin: 10px 0
   &:hover
@@ -334,10 +334,10 @@ pre.noexpand
     width: 615px !important
 
 code
-  font-family: monospace
+  font-family: Monaco, "Courier New", monospace
   border: 1px solid #ddd
-  background-color: #eef
-  font-size: 75%
+  background-color: #F8FAEB
+  font-size: 0.9em
   padding: 0 .2em
 
 pre code
