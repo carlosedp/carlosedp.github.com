@@ -7,7 +7,7 @@ title: About me
 
 <img src="/images/Me2.jpg" alt="Me" width=150px class="right">
 
-Hi! My name is Carlos Eduardo. I'm a Brazilian developer and tech enthusiast from Brazil working at a major mobile phone carrier.
+My name is Carlos Eduardo. I'm a Brazilian developer and tech enthusiast currently working at a major mobile phone carrier.
 
 My great passion is write software, fiddling with new technologies and trying to keep up to the latest gadgets available.
 
@@ -19,7 +19,7 @@ You can see more about my professional profile on [Linkedin](http://br.linkedin.
 
 This site came from the need to have a single place to keep my projects and writings. It is created with [Jekyll](https://github.com/mojombo/jekyll/) engine.
 
-The design was created from scratch based on colour palettes from [ColourLovers](http://www.colourlovers.com/). Everything was made on VIM and the CSS compiled with [Compass for SASS](http://compass-style.org).
+The design was created from scratch based on colour palettes from [ColourLovers](http://www.colourlovers.com/). Everything was made on VIM and the CSS compiled from SASS with [Compass for SASS](http://compass-style.org).
 
 The source for it can be checked on my [GitHub](https://github.com/carlosedp/carlosedp.github.com) repository.
 
@@ -29,56 +29,17 @@ Inspired by the guys from [The Setup](http://usesthis.com/), I created this sect
 
 <img src="/images/Desktop.jpg" alt="Desktop" class="center">
 
-### Services
+Right now, I manage my email, calendar and contacts on [Gmail](http://gmail.com). All of them are in sync with my iPhone 4 and my 13'' MacBook Pro. In the computer, I use Apple's Mail.app, Address Book and Calendar. All my files are kept in sync with [Dropbox](http://www.dropbox.com). Backups are made into a Seagate 2TB drive using Time Machine.
 
-* Google Apps for my domain (Email, Calendar, Contacts)
-* [Xmarks](http://www.xmarks.com) for bookmark sync
-* [Dropbox](http://www.dropbox.com) to have files available between computers and iPhone
-* [Simplenote](https://simple-note.appspot.com) to have easy access to my notes
-* [Lastpass](http://www.lastpass.com) for password sync
-* Google Reader for all my news consumption
+I browse the web using [Google Chrome](http://www.google.com/chrome) usually with the beta channel. My bookmarks are in sync between my Mac and my work computer(a Lenovo PC) using [Xmarks](http://www.xmarks.com) and passwords using the fantastic and free [Lastpass](http://www.lastpass.com). My daily reading is done in Google Reader while at work and Reeder on Mac.
 
-### Hardware
+I use some apps to enhance the experience on Mac. [MenuBarFilter](http://eece.github.com/MenuBarFilter/) to invert the menubar, [iStat Menus](http://http://www.islayer.com/) to have a couple widgets (CPU, memory, network), [F.lux](http://http://stereopsis.com/flux/) to have the colors more confortable at night, [SoundSource](http://www.rogueamoeba.com/freebies/) to replace native volume control, [HyperDock](http://hyperdock.bahoom.de) to have windows snapping and app previewing on the Dock and finally [FunctionFlip](http://kevingessner.com/software/functionflip/) to invert some function keys.
 
-* 13-inch MacBook Pro early 2011 model (4GB RAM, Core i5)
-* 21.5-inch iMac 3.06Ghz Core2Duo with 4GB RAM
-* Seagate 2TB external hard drive for backing up with Time Machine.
-* External enclosure with 1TB hard drive used to store movies and TV Shows shared on Wi-Fi
-* Netgear WNDR3400 wireless router
-* Logitech V470 bluetooth mouse that's barely used since the MBP trackpad is great
+All my notes are in [Simplenote](https://simple-note.appspot.com) and I edit them using [NVAlt](http://brettterpstra.com/project/nvalt/) on Mac and Simplenote app on iPhone. For bigger documents I sometimes use Apple iWork or Microsoft Office 2011. I Tweed using [Tweetbot](http://tapbots.com/tweetbot) on iPhone and Twitter client for Mac. I usually IM with [Skype](http://www.skype.com) and Apple's Messages app with [Cocoon](http://cocoon.drinkbrainjuice.com/) for MSN.
 
-### Applications
+I code in a multitude of languages, so my computer generally have Erlang, Python, Ruby, Node.js, all installed with [Homebrew](http://mxcl.github.com/homebrew). My favorite editor for everything is Vim ([MacVim](http://code.google.com/p/macvim/) on Mac and gVIM on Windows) with the [vimfiles](https://github.com/carlosedp/vimfiles) configuration from my Github repository.
 
-* [Google Chrome](http://www.google.com/chrome) beta or dev channels
-* [MacVim](http://code.google.com/p/macvim/) (gVim on Windows) for coding.(check my Vimfiles project)
-* [iTerm 2](http://code.google.com/p/iterm2/) a fantastic tabbed terminal
-* [NVAlt](http://brettterpstra.com/project/nvalt/), a Notational Velocity fork to manage Simplenote notes
-* [MenuBarFilter](http://eece.github.com/MenuBarFilter/) to invert the menubar
-* [Tweetdeck](http://www.tweetdeck.com) or sometimes Twitter Client for Mac
-* iCal, Mac's own calendar app in sync with Google Calendar
-* [Fluid.app](http://www.fluidapp.com) for Facebook and Google Reader SSBs.
-* [iStat Menus](http://http://www.islayer.com/), the network and clock items are great
-* [HyperDock](http://hyperdock.bahoom.de) permits window snapping and previews hovering the dock
-* [F.lux](http://http://stereopsis.com/flux/) makes working at night a pleasure
-* [SoundSource](http://www.rogueamoeba.com/freebies/) as a replacement to volume menubar item
-* [FunctionFlip](http://kevingessner.com/software/functionflip/). I have F1-F6 as functions to use on VIM mappings and keep F7-F12 as iTunes controls
-* [Perian](http://perian.org)Perian to decode all video formats inside Quicktime
-* [Musicbrainz Picard](http://musicbrainz.org/doc/MusicBrainz_Picard) to tag all my music before going into the library
-* [Skype](http://www.skype.com)
-* [Adium](http://adium.im) for IM
-* [Transmission](http://transmissionbt.com/) for BitTorrent
-* [Unison](http://www.cis.upenn.edu/~bcpierce/unison/) to keep files in sync between computers and external drives
-* [Wunderlist](http://www.wunderlist.com), just started using this great ToDo app
-* Microsoft Office 2011
-
-### Gadgets
-
-* Self made [hybrid-tube](http://diyaudioprojects.com/Solid/12AU7-IRF510-LM317-Headamp/) headphone amplifier
-* XBMC running on a 3yo Macbook white as media center.
-* Canon Powershot SD1400 compact camera
-* iPhone 4 32GB
-* [Grado Labs](http://www.gradolabs.com) SR60i headphones.
-* Klipsh Custom-3 in-ear earphones. One of the best in-ear phones ever except for the crappy cables.
+I'm a music lover and I manage my 106GB library of music with iTunes. All my music is correctly tagged and only enters the library after tagging with [Musicbrainz Picard](http://musicbrainz.org/doc/MusicBrainz_Picard). I listen to music using a pair of Grados SR-60i or Klipsch Custom-3 IEM and a DIY [hybrid-tube](http://diyaudioprojects.com/Solid/12AU7-IRF510-LM317-Headamp/) headphone amplifier.
 
 <br>
-Last update on 15/12/2011
+Last update on 05/04/2012
