@@ -33,7 +33,7 @@ Now, on the geeky part. iSync does not sync automatically in timed intervals. To
 
 To create this, fire up your text editor and create a file with the following content:
 
-{% highlight xml %}
+{% highlight xml linenos %}
     <?xml version="1.0" encoding="UTF-8"?>
     <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
     <plist version="1.0">

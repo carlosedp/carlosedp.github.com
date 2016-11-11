@@ -1,43 +1,57 @@
 ---
 layout: default
 ---
-<div class="post">
-    <h1 class="post-title">{{ page.title }}</h1>
-    <time class="date" datetime="{{ page.date | date: "%Y-%m-%d" }}">
-    {{ page.date | date: "<em>%d</em><small>%b<br>%Y</small>" }}
-    </time>
-    <div class="post-content">
-        {{ content }}
-    </div>
-    <div class="tweet">
-        <a href="https://twitter.com/share" class="twitter-share-button" data-count="horizontal" data-url="{{site.base_url}}{{ page.url }}" data-text="Shallow Thoughts - {{page.title}}" data-via="carlosedp">Tweet</a>
-    </div>
-    <div class="plusone">
-        <g:plusone size="small" href="{{site.base_url}}{{ page.url }}"></g:plusone>
-    </div>
-</div>
-<div id="disqus_thread"></div>
-<script type="text/javascript">
-    var disqus_shortname = 'shallowthoughts';
-    var disqus_url = '{{site.base_url}}{{ page.url }}';
-    (function() {
-        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-        dsq.src = 'http://shallowthoughts.disqus.com/embed.js';
-        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-    })();
-</script>
-<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-<a href="http://disqus.com" class="dsq-brlink">blog comments powered by <span class="logo-disqus">Disqus</span></a>
+<div id="main">
+    <article>
+        <header class="major">
+            <h2 class="post-title">{{ page.title }}</h2>
+                <p class="post-meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
+        </header>
 
-<div id="previous">
-    <h1 class="with-border">Previous Posts</h1>
-    <ul class="posts">
-        {% for post in site.posts limit:4 %}
-        <li>
-            <span>{{ post.date | date_to_string }}</span> &raquo;
-            <a href="{{ post.url }}">{{ post.title }}</a>
-        </li>
-        {% endfor %}
-    </ul>
-    <a href="{{site.base_dir}}/archives">More posts &raquo;</a>
+        <section>
+            {{ content }}
+        </section>
+        <hr>
+        <footer>
+            <div class="row">
+            {% if page.previous %}
+
+                <article class="{% cycle '6u', '6u$' %} 12u(small) excerpt">
+                    <header>
+                        <h2><a href="{{ page.previous.url }}">{{ page.previous.title }}</a></h2>
+                    </header>
+                    <section>
+                        {{ page.previous.excerpt }}
+                    </section>
+                    <footer>
+                        <ul class="actions">
+                            <li><a href="{{ page.previous.url }}" class="button">Read More</a></li>
+                        </ul>
+                    </footer>
+                </article>
+            {% endif %}
+
+            {% if page.next %}
+
+                <article class="{% cycle '6u', '6u$' %} 12u(small) excerpt f-right">
+                    <header>
+                        <h2><a href="{{ page.next.url }}">{{ page.next.title }}</a></h2>
+                    </header>
+                    <section>
+                        {{ page.next.excerpt | markdownify }}
+                    </section>
+                    <footer>
+                        <ul class="actions">
+                            <li><a href="{{ page.next.url }}" class="button">Read More</a></li>
+                        </ul>
+                    </footer>
+                </article>
+            {% endif %}
+            </div>
+        </footer>
+        <hr>
+        For more posts, check the <a href="{{site.base_dir}}/archives">archives &raquo;</a>
+
+    </article>
+
 </div>

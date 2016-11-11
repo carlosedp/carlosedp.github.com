@@ -1,9 +1,40 @@
-exclude: ['sass', 'README.markdown', 'config.rb', 'Rakefile']
-markdown: rdiscount
-pygments: true
+# Site settings
 
-base_url: http://carlosedp.com
-frontpage_posts: 4
+title: Shallow Thoughts # Title of your site
+email: me@carlosedp.com # Your contant email
 
-name: Shallow Thoughts
-permalink: /posts/:title.html
+description: > # this means to ignore newlines until "baseurl:"
+  Technology, cooking and american football, all powered by music and good coffee.
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://carlosedp.com" # the base hostname & protocol for your site
+
+# Build settings
+markdown: kramdown
+exclude: ['_sass', 'README.markdown', 'Rakefile', 'Gemfile']
+highlighter: rouge
+
+gems:
+  - jekyll-feed
+
+feed:
+  path: atom.xml
+
+sass:
+    sass_dir: _sass
+    style: compressed
+
+# Social links.
+# Replace the word 'example' with your username if you want to include the icon in the left sidebar
+# Delete the word 'example' if you don't want to include the icon in the left sidebar
+
+twitter_username:     carlosedp  # Replace this with your Twitter username
+github_username:      carlosedp  # Replace this with your GitHub username
+linkedin_username:    carlosedp  # Replace this with your LinkedIn username
+google_plus_username: carlosedp  # Replace this with your Google+ username
+facebook_username:    carlosedp  # Replace this with your Facebook username
+dribbble_username:      # Replace this with your Dribbble username
+
+# Blog Configuration
+frontpage_posts: 2
+excerpt_posts: 4
+

@@ -1,8 +1,7 @@
-desc 'build'
-task :build do
-    puts 'Compiling Compass CSS'
-    sh "compass compile"
-    end
+desc 'update gems'
+task :update do
+    puts 'Updating GEMS'
+    sh 'bundle update'
 end
 
 desc 'deploy'
@@ -19,10 +18,10 @@ task :deploy => [:build] do
 end
 
 desc 'run local server'
-task :server => [:build] do
+task :server do
     puts 'Running local server'
-    sh 'open http://localhost:4000'
-    sh 'jekyll --server --auto'
+    # sh 'open http://localhost:4000'
+    sh 'bundle exec jekyll serve'
 end
 
 desc 'Create new post markdown file'

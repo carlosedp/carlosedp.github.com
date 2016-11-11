@@ -13,7 +13,7 @@ Here are my favorites:
 # Distance and units
 
 * [Distance and units](http://xkcd.com/681/). Gravity Wells, an illustration of the force of gravity in * the Solar System
-* [Hight](http://xkcd.com/482/) (or rather distance), from a giraffe to Hubble Deep Field Object
+* [Height](http://xkcd.com/482/) (or rather distance), from a giraffe to Hubble Deep Field Object
 * [Depth](http://xkcd.com/485/), small sizes on a logarithmic scale
 * [Guide to Converting to Metric](http://xkcd.com/526/), no more feet or stones
 * [Map Projections](http://xkcd.com/977/), and what they say about you

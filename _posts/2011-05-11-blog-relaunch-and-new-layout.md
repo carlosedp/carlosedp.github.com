@@ -3,6 +3,7 @@ layout: post
 title: Blog relaunch with new layout
 tags:
     - blog
+published: false
 ---
 
 Today marks the launch of my site. Now it's hosted in my own domain, to keep an identity online. Also, I will begin to transition from my Gmail address to my own domain email (using Google Apps for my domain).
