@@ -10,8 +10,9 @@ url: "http://carlosedp.com" # the base hostname & protocol for your site
 
 # Build settings
 markdown: kramdown
-exclude: ['_sass', 'README.markdown', 'Rakefile', 'Gemfile']
 highlighter: rouge
+
+exclude: ['_sass', 'README.markdown', 'Rakefile', 'Gemfile']
 
 gems:
   - jekyll-feed
@@ -38,3 +39,5 @@ dribbble_username:      # Replace this with your Dribbble username
 frontpage_posts: 2
 excerpt_posts: 4
 
+twitter:
+  username: carlosedp

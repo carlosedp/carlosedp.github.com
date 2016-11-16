@@ -33,7 +33,7 @@ Now, on the geeky part. iSync does not sync automatically in timed intervals. To
 
 To create this, fire up your text editor and create a file with the following content:
 
-{% highlight xml linenos %}
+```xml
     <?xml version="1.0" encoding="UTF-8"?>
     <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
     <plist version="1.0">
@@ -52,11 +52,11 @@ To create this, fire up your text editor and create a file with the following co
         <integer>1800</integer>
     </dict>
     </plist>
-{% endhighlight %}
+```
 
 The parameter `StartInterval` is set to 1800 seconds(30 minutes).
 
-Save it in: ~/Library/LaunchAgents/com.carlosedp.iSyncAutoRun.plist 
+Save it in: `~/Library/LaunchAgents/com.carlosedp.iSyncAutoRun.plist`
 
 This will not automatically run for the current session, only after a reboot. If you want to test it and use without rebooting, drop into the console and run:
 
