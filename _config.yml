@@ -16,6 +16,7 @@ exclude: ['_sass', 'README.markdown', 'Rakefile', 'Gemfile']
 
 gems:
   - jekyll-feed
+  - jekyll-seo-tag
 
 feed:
   path: atom.xml
