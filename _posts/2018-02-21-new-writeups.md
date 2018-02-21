@@ -1,6 +1,6 @@
 ---
 layout: post
-title: NVM for Nodeists. Managing your Node.js install
+title: Latest articles
 ---
 
 For the latest writeups and articles, check my [Medium](https://medium.com/@carlosedp/) page or follow me on [Twitter](https://twitter.com/carlosedp).
