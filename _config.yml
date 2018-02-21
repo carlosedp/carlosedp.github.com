@@ -37,8 +37,8 @@ facebook_username:    carlosedp  # Replace this with your Facebook username
 dribbble_username:      # Replace this with your Dribbble username
 
 # Blog Configuration
-frontpage_posts: 2
-excerpt_posts: 4
+frontpage_posts: 1
+excerpt_posts: 0
 
 twitter:
   username: carlosedp
