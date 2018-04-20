@@ -42,3 +42,6 @@ excerpt_posts: 0
 
 twitter:
   username: carlosedp
+
+collections:
+  - medium_posts

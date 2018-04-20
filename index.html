@@ -5,6 +5,18 @@ layout: default
 
 <!-- Main -->
 <div id="main">
+
+    <section>
+        <h2> These are my latest posts on [Medium](https://medium.com/@carlosedp/)</h2>
+
+        {% for e in site.medium_posts %}
+        <div class="row">
+          <h3>{{e.title}}</h3>
+          <p>{{e.feed_content}}</p>
+
+          {% endfor %}
+        </div>
+    </section>
     <section>
         {% for post in site.posts limit: site.frontpage_posts %}
             <header class="major">
