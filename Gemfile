@@ -1,5 +1,5 @@
 source 'http://rubygems.org' do
-
+  gem 'dotenv-rails', groups: [:development, :test]
   gem 'jekyll'
   gem 'wdm', '~> 0.1.0' if Gem.win_platform?
   gem 'rouge'

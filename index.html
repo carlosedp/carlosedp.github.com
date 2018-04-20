@@ -7,17 +7,16 @@ layout: default
 <div id="main">
 
     <section>
-        <h2> These are my latest posts on [Medium](https://medium.com/@carlosedp/)</h2>
+        <h1> These are my latest posts on <a href="https://medium.com/@carlosedp/">Medium</a> </h1>
 
         {% for e in site.medium_posts %}
         <div class="row">
-          <h3>{{e.title}}</h3>
+          <h2>{{e.title}}</h2>
           <p>{{e.feed_content}}</p>
-
-          {% endfor %}
         </div>
+          {% endfor %}
     </section>
-    <section>
+    <!-- <section>
         {% for post in site.posts limit: site.frontpage_posts %}
             <header class="major">
                 <h2>{{ post.title }}</h2>
@@ -49,7 +48,7 @@ layout: default
 
             {% endfor %}
         </div>
-    </section>
+    </section> -->
     <hr>
-    For more posts, check the <a href="{{site.base_dir}}/archives">archives &raquo;</a>
+    For older posts, check the <a href="{{site.base_dir}}/archives">archives &raquo;</a>
 </div>
