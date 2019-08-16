@@ -18,26 +18,16 @@ layout: default
         {% endfor %}
     </section>
     <section>
-        <div class="row">
-            {% for post in site.posts offset: site.frontpage_posts limit: site.excerpt_posts %}
-
-                <article class="{% cycle '6u', '6u$' %} 12u(small)">
-                    <header>
-                        <h2><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
-                    </header>
-                    <section>
-                        {{ post.excerpt }}
-                    </section>
-                    <footer>
-                        <ul class="actions">
-                            <li><a href="{{ site.baseurl }}{{ post.url }}" class="button">Read More</a></li>
-                        </ul>
-                    </footer>
-                </article>
-
-            {% endfor %}
-        </div>
+        <div id="carlosedp-rss-embed" 
+        data-rss="https://medium.com/feed/@carlosedp"
+        data-maxcols="3" 
+        data-layout="grid" 
+        data-poststyle="inline" 
+        data-readmore="Read the rest" 
+        data-buttonclass="btn btn-primary" 
+        data-offset="-100"></div>
     </section>
     <hr>
     For more posts, check the <a href="{{site.base_dir}}/archives">archives &raquo;</a>
 </div>
+<script src="https://www.retainable.io/assets/retainable/rss-embed/retainable-rss-embed.js"></script>
