@@ -6,18 +6,6 @@ layout: default
 <!-- Main -->
 <div id="main">
     <section>
-        {% for post in site.posts limit: site.frontpage_posts %}
-            <header class="major">
-                <h2>{{ post.title }}</h2>
-                <p class="post-meta">{{ post.date | date: "%b %-d, %Y" }}{% if post.author %} • {{ post.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
-            </header>
-
-            <section>
-                {{ post.content }}
-            </section>
-        {% endfor %}
-    </section>
-    <section>
         <div id="carlosedp-rss-embed" 
         data-rss="https://medium.com/feed/@carlosedp"
         data-maxcols="3" 
@@ -30,4 +18,3 @@ layout: default
     <hr>
     For older posts, check the <a href="{{site.base_dir}}/archives">archives &raquo;</a>
 </div>
-<script src="https://www.retainable.io/assets/retainable/rss-embed/retainable-rss-embed.js"></script>
